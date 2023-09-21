@@ -1,6 +1,9 @@
 {
   "name": "loginpage",
   "version": "0.1.0",
+  "homepage": "https://MeetBharadva.github.io/LoginPage",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -38,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
